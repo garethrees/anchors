@@ -1,0 +1,72 @@
+/* RESET */
+body {
+	background: #FFFEF5;
+	font-family: Arial, Sans-Serif;
+	font-size:100%;
+}
+
+p { font-size:0.85em; }
+
+a {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  font:inherit;
+	text-decoration:none;
+  vertical-align:baseline;
+}
+
+/* SIMPLE */
+
+a.simple:link {
+	color:#0080FF;
+}
+a.simple:visited { color:#400080; }
+a.simple:hover,
+a.simple:active {
+	text-decoration:underline;
+}
+
+/* 37SIGNALS */
+
+a.signals:link {
+	color:#0080FF;
+	text-decoration:underline;
+}
+a.signals:visited { color:#004080; }
+a.signals:hover,
+a.signals:active {
+	background:#0080FF;
+	color:#FFF;
+	text-decoration:none;
+}
+
+/* HIGHLIGHT */
+
+a.highlight:link {
+	background:#DBF9FF;
+	color:#000;
+}
+a.highlight:visited { color:#000080; }
+a.highlight:hover,
+a.highlight:active {
+	border-bottom:1px dashed #369;
+}
+
+/* HELP */
+
+a.help:link {
+	background:#F60;
+	border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px;
+	color:#FFF;
+	padding:1px;
+	text-shadow:1px 1px 1px #630;
+}
+a.help:visited { color:#FFF; }
+a.help:hover,
+a.help:active {
+	background:#FF8000;
+}
+
