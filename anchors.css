@@ -1,0 +1,47 @@
+/*--------------------------
+	CSS ANCHOR SPECIFICITY 
+	Remember LoVe:HAte
+--------------------------*/
+
+a:link {}
+a:visited {}
+a:hover {}
+a:active {}
+
+/*--------------------------
+	EXTERNAL LINKS 
+--------------------------*/
+
+a[href^="http:"] {
+	background: url("images/external-link.gif") no-repeat right top;
+	padding-right: 10px;
+}
+
+/* Remove external link image for absolute internal links */
+
+a[href^="http://domain.com"],
+a[href^="http://www.domain.com"] {
+	background: none;
+	padding-right: none;
+}
+
+/* Add external link image for email addresses that open default email client */
+
+a[href^="mailto:"] {
+	background: url("images/external-link.gif") no-repeat right top;
+	padding-right: 10px;
+}
+
+/*--------------------------
+	DOCUMENTS 
+--------------------------*/
+
+a[href$=".pdf"] {
+	background: url("images/pdf-link.gif") no-repeat right top;
+	padding-right: 10px;	
+}
+
+a[href$=".doc"] {
+	background: url("images/doc-link.gif") no-repeat right top;
+	padding-right: 10px;	
+}
