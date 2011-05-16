@@ -36,6 +36,8 @@ a[href^="mailto:"] {
 	DOCUMENTS 
 --------------------------*/
 
+/* Add an icon to PDF, DOC files etc */
+
 a[href$=".pdf"] {
 	background: url("images/pdf-link.gif") no-repeat right top;
 	padding-right: 10px;	
