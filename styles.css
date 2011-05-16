@@ -12,11 +12,14 @@ a {
   padding:0;
   border:0;
   outline:0;
-  font-size:100%;
   font:inherit;
 	text-decoration:none;
   vertical-align:baseline;
 }
+
+/*------------------------------------------------
+* ANCHOR STYLES
+*-----------------------------------------------*/
 
 /* SIMPLE */
 
@@ -59,7 +62,7 @@ a.highlight:active {
 
 a.help:link {
 	background:#F60;
-	border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px;
+	border-radius:0.2em; -webkit-border-radius:0.2em; -moz-border-radius:0.2em;
 	color:#FFF;
 	padding:1px;
 	text-shadow:1px 1px 1px #630;
@@ -68,5 +71,20 @@ a.help:visited { color:#FFF; }
 a.help:hover,
 a.help:active {
 	background:#FF8000;
+}
+
+/* TAG */
+
+a.tag:link {
+	background:#9C6;
+	border-radius:0.2em; -webkit-border-radius:0.2em; -moz-border-radius:0.2em;
+	color:#008000;
+	padding:1px 0.25em;
+}
+a.tag:visited { color:#FFF; }
+a.tag:hover,
+a.tag:active {
+	background:#408000;
+	color:#FFF;
 }
 
