@@ -46,6 +46,19 @@ a.signals:active {
 	text-decoration:none;
 }
 
+/* SVN */
+
+a.svn:link {
+	color:#000;
+	text-decoration:underline;
+}
+a.svn:visited { color:#999; }
+a.svn:hover,
+a.svn:active {
+	background:#000;
+	color:#FFF;
+}
+
 /* HIGHLIGHT */
 
 a.highlight:link {
