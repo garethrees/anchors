@@ -101,3 +101,16 @@ a.tag:active {
 	color:#FFF;
 }
 
+/* STACK */
+
+a.stack:link {
+	background:#E0EAF1;
+	color:#07C;
+	padding:0.25em 0.5em;
+}
+a.stack:visited { color:#369; }
+a.stack:hover,
+a.stack:active {
+	text-decoration:underline;
+}
+
